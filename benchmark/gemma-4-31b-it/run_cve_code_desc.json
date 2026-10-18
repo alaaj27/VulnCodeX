@@ -1,0 +1,15 @@
+{
+ "model": "gemma-4-31b-it",
+ "split": "cve",
+ "variant": "code_desc",
+ "records": 1000,
+ "pairs": 4615,
+ "empty_answers": 0,
+ "empty_answers_%": 0.0,
+ "finish_reasons": {
+  "stop": 1000
+ },
+ "minutes_this_run": 13.2,
+ "max_tokens": 1500,
+ "temperature": 0
+}

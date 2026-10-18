@@ -1,0 +1,331 @@
+{
+ "model": "gemma-4-31b-it",
+ "records": 999,
+ "questions": 4609,
+ "main_topics": [
+  "All",
+  "Vuln. type",
+  "Mechanism",
+  "Fix",
+  "Location",
+  "Code behaviour"
+ ],
+ "score": {
+  "All": {
+   "no_code": 16.8,
+   "code": 39.8,
+   "code_desc": 86.3,
+   "desc_only": 83.9
+  },
+  "Affected software": {
+   "no_code": 10.5,
+   "code": 23.3,
+   "code_desc": 93.6,
+   "desc_only": 94.4
+  },
+  "Vuln. type": {
+   "no_code": 14.4,
+   "code": 28.1,
+   "code_desc": 89.8,
+   "desc_only": 95.7
+  },
+  "Exploitation": {
+   "no_code": 13.7,
+   "code": 34.8,
+   "code_desc": 92.7,
+   "desc_only": 96.0
+  },
+  "Mechanism": {
+   "no_code": 9.0,
+   "code": 32.3,
+   "code_desc": 89.6,
+   "desc_only": 92.8
+  },
+  "Fix": {
+   "no_code": 21.4,
+   "code": 38.2,
+   "code_desc": 83.0,
+   "desc_only": 90.4
+  },
+  "Impact": {
+   "no_code": 21.6,
+   "code": 48.6,
+   "code_desc": 92.8,
+   "desc_only": 95.7
+  },
+  "Severity": {
+   "no_code": 7.5,
+   "code": 40.9,
+   "code_desc": 51.6,
+   "desc_only": 54.3
+  },
+  "Location": {
+   "no_code": 7.8,
+   "code": 49.8,
+   "code_desc": 75.1,
+   "desc_only": 45.3
+  },
+  "Code behaviour": {
+   "no_code": 64.5,
+   "code": 97.9,
+   "code_desc": 99.3,
+   "desc_only": 70.9
+  }
+ },
+ "ci95": {
+  "Vuln. type": {
+   "no_code": [
+    12.4,
+    16.5
+   ],
+   "code": [
+    25.5,
+    30.7
+   ],
+   "code_desc": [
+    88.1,
+    91.4
+   ],
+   "desc_only": [
+    94.7,
+    96.6
+   ]
+  },
+  "Exploitation": {
+   "no_code": [
+    10.0,
+    17.5
+   ],
+   "code": [
+    29.7,
+    39.8
+   ],
+   "code_desc": [
+    90.2,
+    95.3
+   ],
+   "desc_only": [
+    94.0,
+    98.0
+   ]
+  },
+  "Affected software": {
+   "no_code": [
+    6.6,
+    14.7
+   ],
+   "code": [
+    17.5,
+    29.6
+   ],
+   "code_desc": [
+    90.1,
+    96.6
+   ],
+   "desc_only": [
+    91.4,
+    97.0
+   ]
+  },
+  "Mechanism": {
+   "no_code": [
+    6.8,
+    11.3
+   ],
+   "code": [
+    28.6,
+    36.3
+   ],
+   "code_desc": [
+    87.3,
+    91.7
+   ],
+   "desc_only": [
+    90.8,
+    94.7
+   ]
+  },
+  "Impact": {
+   "no_code": [
+    18.2,
+    25.2
+   ],
+   "code": [
+    44.8,
+    52.4
+   ],
+   "code_desc": [
+    90.8,
+    94.7
+   ],
+   "desc_only": [
+    93.9,
+    97.1
+   ]
+  },
+  "Fix": {
+   "no_code": [
+    18.6,
+    24.1
+   ],
+   "code": [
+    34.9,
+    41.7
+   ],
+   "code_desc": [
+    80.6,
+    85.5
+   ],
+   "desc_only": [
+    88.5,
+    92.2
+   ]
+  },
+  "Location": {
+   "no_code": [
+    5.7,
+    10.1
+   ],
+   "code": [
+    45.7,
+    53.9
+   ],
+   "code_desc": [
+    71.5,
+    78.4
+   ],
+   "desc_only": [
+    41.6,
+    48.8
+   ]
+  },
+  "Severity": {
+   "no_code": [
+    2.7,
+    12.9
+   ],
+   "code": [
+    31.7,
+    50.5
+   ],
+   "code_desc": [
+    42.5,
+    61.3
+   ],
+   "desc_only": [
+    45.2,
+    62.9
+   ]
+  },
+  "Code behaviour": {
+   "no_code": [
+    56.3,
+    73.0
+   ],
+   "code": [
+    95.3,
+    99.7
+   ],
+   "code_desc": [
+    98.2,
+    100.0
+   ],
+   "desc_only": [
+    62.7,
+    79.2
+   ]
+  },
+  "All": {
+   "no_code": [
+    15.1,
+    18.5
+   ],
+   "code": [
+    37.6,
+    42.0
+   ],
+   "code_desc": [
+    85.1,
+    87.5
+   ],
+   "desc_only": [
+    82.7,
+    85.0
+   ]
+  }
+ },
+ "questions_per_topic": {
+  "All": 4609,
+  "Affected software": 195,
+  "Vuln. type": 1001,
+  "Exploitation": 303,
+  "Mechanism": 584,
+  "Fix": 902,
+  "Impact": 437,
+  "Severity": 93,
+  "Location": 634,
+  "Code behaviour": 141
+ },
+ "correct_overlap_%": {
+  "All": {
+   "code_only": 9.3,
+   "both": 25.9,
+   "desc_only": 54.6,
+   "neither": 10.2
+  },
+  "Affected software": {
+   "code_only": 3.6,
+   "both": 16.9,
+   "desc_only": 75.4,
+   "neither": 4.1
+  },
+  "Vuln. type": {
+   "code_only": 1.6,
+   "both": 21.7,
+   "desc_only": 71.0,
+   "neither": 5.7
+  },
+  "Exploitation": {
+   "code_only": 0.7,
+   "both": 29.4,
+   "desc_only": 65.7,
+   "neither": 4.3
+  },
+  "Mechanism": {
+   "code_only": 5.1,
+   "both": 23.5,
+   "desc_only": 67.5,
+   "neither": 3.9
+  },
+  "Fix": {
+   "code_only": 3.4,
+   "both": 31.6,
+   "desc_only": 56.4,
+   "neither": 8.5
+  },
+  "Impact": {
+   "code_only": 3.0,
+   "both": 32.7,
+   "desc_only": 60.6,
+   "neither": 3.7
+  },
+  "Severity": {
+   "code_only": 11.8,
+   "both": 25.8,
+   "desc_only": 19.4,
+   "neither": 43.0
+  },
+  "Location": {
+   "code_only": 33.1,
+   "both": 12.5,
+   "desc_only": 24.1,
+   "neither": 30.3
+  },
+  "Code behaviour": {
+   "code_only": 30.5,
+   "both": 66.7,
+   "desc_only": 2.1,
+   "neither": 0.7
+  }
+ }
+}

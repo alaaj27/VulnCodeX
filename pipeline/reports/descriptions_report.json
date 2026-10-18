@@ -1,0 +1,25 @@
+{
+ "input": "clean_lang.json",
+ "output": "vulncodex_v3.json",
+ "records": 26003,
+ "cves": 6911,
+ "description_words_median": 37,
+ "cve_ids_repaired": {
+  "cvefixes_4700": [
+   "CVE-2014-12510",
+   "CVE-2014-125107"
+  ],
+  "cvefixes_4701": [
+   "CVE-2014-12510",
+   "CVE-2014-125107"
+  ],
+  "cvefixes_4702": [
+   "CVE-2014-12510",
+   "CVE-2014-125107"
+  ],
+  "cvefixes_4703": [
+   "CVE-2014-12510",
+   "CVE-2014-125107"
+  ]
+ }
+}

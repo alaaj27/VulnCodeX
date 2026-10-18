@@ -1,0 +1,15 @@
+{
+ "model": "qwen2.5-coder-7b-instruct",
+ "split": "cve",
+ "variant": "code",
+ "records": 2576,
+ "pairs": 11733,
+ "empty_answers": 1,
+ "empty_answers_%": 0.01,
+ "finish_reasons": {
+  "stop": 2576
+ },
+ "minutes_this_run": 4.4,
+ "max_tokens": 1500,
+ "temperature": 0
+}

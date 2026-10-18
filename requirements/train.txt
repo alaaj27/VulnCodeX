@@ -1,0 +1,7 @@
+# LoRA fine-tuning (finetune/train_lora.py). Python 3.12, CUDA 12.9, one A100 80GB.
+torch==2.13.0
+transformers==5.18.0
+trl==1.14.1
+peft==0.21.2
+datasets==5.0.1
+accelerate==1.15.0

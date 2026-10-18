@@ -1,0 +1,87 @@
+{
+ "old_max_year": 2015,
+ "recent_min_year": 2022,
+ "source": "CVEfixes only",
+ "models": {
+  "Foundation-Sec-8B": {
+   "old_records": 357,
+   "recent_records": 325,
+   "old_score_%": 36.4,
+   "recent_score_%": 27.4,
+   "raw": {
+    "diff_points": -9.0,
+    "ci95": [
+     -13.5,
+     -4.3
+    ]
+   },
+   "topic_adjusted": {
+    "diff_points": -9.1,
+    "ci95": [
+     -13.6,
+     -4.6
+    ]
+   }
+  },
+  "Qwen2.5-Coder-7B": {
+   "old_records": 357,
+   "recent_records": 325,
+   "old_score_%": 37.4,
+   "recent_score_%": 29.3,
+   "raw": {
+    "diff_points": -8.1,
+    "ci95": [
+     -12.8,
+     -3.3
+    ]
+   },
+   "topic_adjusted": {
+    "diff_points": -7.8,
+    "ci95": [
+     -12.3,
+     -3.4
+    ]
+   }
+  },
+  "OpenCoder-8B": {
+   "old_records": 357,
+   "recent_records": 325,
+   "old_score_%": 34.6,
+   "recent_score_%": 27.4,
+   "raw": {
+    "diff_points": -7.2,
+    "ci95": [
+     -11.6,
+     -2.8
+    ]
+   },
+   "topic_adjusted": {
+    "diff_points": -7.3,
+    "ci95": [
+     -11.3,
+     -2.8
+    ]
+   }
+  },
+  "Gemma-4-31B": {
+   "old_records": 357,
+   "recent_records": 325,
+   "old_score_%": 45.3,
+   "recent_score_%": 37.3,
+   "raw": {
+    "diff_points": -8.1,
+    "ci95": [
+     -13.4,
+     -2.8
+    ]
+   },
+   "topic_adjusted": {
+    "diff_points": -7.8,
+    "ci95": [
+     -12.9,
+     -2.9
+    ]
+   }
+  }
+ }
+}

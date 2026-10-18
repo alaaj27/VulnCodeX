@@ -1,0 +1,16 @@
+{
+ "model": "opencoder-8b-instruct",
+ "split": "cve",
+ "variant": "code",
+ "records": 2576,
+ "pairs": 11733,
+ "empty_answers": 2,
+ "empty_answers_%": 0.02,
+ "finish_reasons": {
+  "stop": 2571,
+  "length": 5
+ },
+ "minutes_this_run": 6.1,
+ "max_tokens": 1500,
+ "temperature": 0
+}

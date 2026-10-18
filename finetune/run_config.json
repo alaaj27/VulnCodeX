@@ -1,0 +1,18 @@
+{
+ "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+ "data": "cve_no_severity",
+ "max_length": 6144,
+ "epochs": 2,
+ "learning_rate": 0.0001,
+ "lr_scheduler": "cosine",
+ "warmup_ratio": 0.03,
+ "per_device_batch": 4,
+ "grad_accum": 8,
+ "lora_r": 16,
+ "lora_alpha": 32,
+ "lora_dropout": 0.05,
+ "eval_subset": 600,
+ "eval_steps": 100,
+ "seed": 0,
+ "max_steps": -1
+}

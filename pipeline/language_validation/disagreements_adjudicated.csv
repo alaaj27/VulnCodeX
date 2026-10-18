@@ -1,0 +1,174 @@
+kind,id,cve_id,source_label,predicted,true_language,verdict,cause_if_prediction_wrong
+sample,cvefixes_37539,CVE-2021-36218,C++,C,C++,source right,"C++ syntax not in the rule (templates, references, class body)"
+sample,cvefixes_22730,CVE-2017-20006,C++,C,C++,source right,"C++ syntax not in the rule (templates, references, class body)"
+sample,cvefixes_34222,CVE-2022-46165,JavaScript,Other,JavaScript/TypeScript,source right,short or partial snippet: low confidence or wrong language
+sample,cvefixes_58289,CVE-2021-4438,Scala,Kotlin,Kotlin,prediction right,
+sample,cvefixes_26159,CVE-2020-15211,C++,C,C or C++,undecidable C/C++,
+sample,cvefixes_31316,CVE-2020-15224,C++,C,C,prediction right,
+sample,cvefixes_1536,CVE-2016-9083,C,C++,C,source right,C++ rule matched a comment or string
+sample,cvefixes_26540,CVE-2022-35972,C++,JavaScript/TypeScript,C++,source right,classifier confused two languages
+sample,cvefixes_58440,CVE-2022-0243,C#,Java,C#,source right,classifier confused two languages
+sample,cvefixes_5064,CVE-2014-3570,C++,C,C,prediction right,
+sample,cvefixes_67054,CVE-2023-34093,TypeScript,Rust,JavaScript/TypeScript,source right,short or partial snippet: low confidence or wrong language
+sample,cvefixes_100336,CVE-2022-3873,JavaScript,Other,JavaScript/TypeScript,source right,short or partial snippet: low confidence or wrong language
+sample,cvefixes_43087,CVE-2021-3996,C,C++,C,source right,C++ rule matched a comment or string
+sample,cvefixes_23697,CVE-2018-10756,C++,C,C or C++,undecidable C/C++,
+sample,cvefixes_31056,CVE-2020-14214,Python,Other,Ruby,neither,short or partial snippet: low confidence or wrong language
+sample,cvefixes_58478,CVE-2022-0819,Java,PHP,PHP,prediction right,
+sample,cvefixes_30958,CVE-2020-12141,C++,C,C,prediction right,
+sample,cvefixes_22967,CVE-2022-0521,C++,C,C,prediction right,
+sample,cvefixes_30728,CVE-2020-11010,Python,Other,Python,source right,short or partial snippet: low confidence or wrong language
+sample,cvefixes_57655,CVE-2021-4264,JavaScript,Other,JavaScript/TypeScript,source right,short or partial snippet: low confidence or wrong language
+sample,cvefixes_24725,CVE-2018-25103,C,C++,C,source right,C++ rule matched a comment or string
+sample,cvefixes_34288,CVE-2021-23341,JavaScript,Other,JavaScript/TypeScript,source right,short or partial snippet: low confidence or wrong language
+sample,cvefixes_26006,CVE-2020-15211,C++,C,C or C++,undecidable C/C++,
+sample,cvefixes_4787,CVE-2020-1888,C++,C,C++,source right,"C++ syntax not in the rule (templates, references, class body)"
+sample,cvefixes_31303,CVE-2020-15224,C++,C,C,prediction right,
+sample,cvefixes_22955,CVE-2022-0521,C++,C,C,prediction right,
+sample,cvefixes_396,CVE-2011-2918,C,C++,C,source right,C++ rule matched a comment or string
+sample,cvefixes_19337,CVE-2022-0261,C,C++,C,source right,C++ rule matched a comment or string
+sample,cvefixes_18796,CVE-2017-14041,C++,C,C,prediction right,
+sample,cvefixes_32096,CVE-2020-22873,C++,C,C,prediction right,
+sample,cvefixes_3933,CVE-2013-4119,C++,C,C,prediction right,
+sample,cvefixes_26059,CVE-2020-15211,C++,C,C or C++,undecidable C/C++,
+sample,cvefixes_31599,CVE-2022-40138,C++,C,C++,source right,"C++ syntax not in the rule (templates, references, class body)"
+sample,cvefixes_22376,CVE-2017-14923,JavaScript,Other,JavaScript/TypeScript,source right,short or partial snippet: low confidence or wrong language
+sample,cvefixes_4002,CVE-2020-11097,C++,C,C,prediction right,
+sample,cvefixes_19396,CVE-2022-2287,Scala,C,C,prediction right,
+sample,cvefixes_3682,CVE-2013-3081,PHP,Other,PHP,source right,short or partial snippet: low confidence or wrong language
+sample,cvefixes_22312,CVE-2017-14604,C++,C,C,prediction right,
+sample,cvefixes_2534,CVE-2015-2319,Go,C#,C#,prediction right,
+sample,cvefixes_22969,CVE-2022-0521,C++,C,C,prediction right,
+sample,cvefixes_26017,CVE-2020-15211,C,C++,C++,prediction right,
+sample,cvefixes_3931,CVE-2013-4119,C++,C,C,prediction right,
+sample,cvefixes_26285,CVE-2021-29591,Rust,C++,C++,prediction right,
+sample,cvefixes_26150,CVE-2020-15211,C++,C,C++,source right,"C++ syntax not in the rule (templates, references, class body)"
+sample,cvefixes_30908,CVE-2020-12135,C++,JavaScript/TypeScript,C,neither,classifier confused two languages
+sample,cvefixes_22728,CVE-2017-20006,C++,C,C++,source right,"C++ syntax not in the rule (templates, references, class body)"
+sample,cvefixes_35358,CVE-2021-26788,C++,C,C,prediction right,
+sample,cvefixes_57672,CVE-2021-4264,JavaScript,Other,JavaScript/TypeScript,source right,short or partial snippet: low confidence or wrong language
+sample,cvefixes_1329,CVE-2016-3841,C,C++,C,source right,C++ rule matched a comment or string
+sample,cvefixes_31318,CVE-2020-15224,C++,C,C,prediction right,
+sample,cvefixes_17885,CVE-2016-9395,C++,C,C,prediction right,
+sample,cvefixes_33704,CVE-2020-7707,Lua,JavaScript/TypeScript,JavaScript/TypeScript,prediction right,
+sample,cvefixes_22848,CVE-2017-5592,C,Other,C,source right,short or partial snippet: low confidence or wrong language
+sample,cvefixes_21674,CVE-2017-6903,C++,C,C,prediction right,
+sample,cvefixes_33817,CVE-2020-8815,C#,C++,C#,source right,"C# rejected because of -> inside a string, then matched new X("
+sample,cvefixes_1136,CVE-2014-3647,C++,C,C,prediction right,
+sample,cvefixes_26192,CVE-2020-15211,C++,C,C or C++,undecidable C/C++,
+sample,cvefixes_22443,CVE-2019-18792,C++,C,C,prediction right,
+sample,cvefixes_58496,CVE-2022-0272,Scala,Kotlin,Kotlin,prediction right,
+sample,cvefixes_29505,CVE-2023-52426,C++,C,C,prediction right,
+sample,cvefixes_32078,CVE-2020-22875,C,C++,C,source right,C++ rule matched _this->
+sample,cvefixes_19675,CVE-2016-5356,C++,C,C,prediction right,
+sample,cvefixes_32395,CVE-2020-26207,C#,C++,C#,source right,"C# below the C# confidence bar, then matched new X("
+sample,cvefixes_35449,CVE-2021-26788,C++,C,C,prediction right,
+sample,cvefixes_26201,CVE-2020-15211,C++,C,C++,source right,"C++ syntax not in the rule (templates, references, class body)"
+sample,cvefixes_22968,CVE-2022-0519,C++,C,C,prediction right,
+sample,cvefixes_26318,CVE-2021-37686,Python,C++,C++,prediction right,
+sample,cvefixes_27192,CVE-2023-35938,PHP,Other,PHP,source right,short or partial snippet: low confidence or wrong language
+sample,cvefixes_30748,CVE-2021-41136,Rust,C++,Java,neither,classifier confused two languages
+sample,cvefixes_22910,CVE-2020-27795,Go,C,C,prediction right,
+sample,cvefixes_31417,CVE-2022-24754,C++,C,C,prediction right,
+sample,cvefixes_28069,CVE-2023-46728,C++,Java,C++,source right,classifier confused two languages
+sample,cvefixes_23422,CVE-2019-13223,C++,C,C,prediction right,
+sample,cvefixes_24473,CVE-2019-18604,C++,C,C,prediction right,
+sample,cvefixes_29459,CVE-2019-15694,C++,C,C++,source right,"C++ syntax not in the rule (templates, references, class body)"
+sample,cvefixes_19375,CVE-2022-1897,C,C++,C,source right,C++ rule matched a comment or string
+sample,cvefixes_23044,CVE-2023-4322,Go,C,C,prediction right,
+sample,cvefixes_19308,CVE-2021-4019,C++,C,C,prediction right,
+sample,cvefixes_22962,CVE-2022-0519,C++,C,C,prediction right,
+sample,cvefixes_32084,CVE-2020-22875,C,C++,C,source right,C++ rule matched _this->
+sample,cvefixes_26101,CVE-2020-15211,C++,C,C or C++,undecidable C/C++,
+sample,cvefixes_29263,CVE-2022-31888,PHP,Other,PHP,source right,short or partial snippet: low confidence or wrong language
+sample,cvefixes_22956,CVE-2022-0519,C++,C,C,prediction right,
+sample,cvefixes_26539,CVE-2022-35971,C++,JavaScript/TypeScript,C++,source right,classifier confused two languages
+sample,cvefixes_26553,CVE-2022-35979,Rust,C++,C++,prediction right,
+sample,cvefixes_34503,CVE-2021-23518,Scala,JavaScript/TypeScript,JavaScript/TypeScript,prediction right,
+sample,cvefixes_32125,CVE-2020-22873,C++,C,C,prediction right,
+sample,cvefixes_22375,CVE-2017-14922,JavaScript,Other,JavaScript/TypeScript,source right,short or partial snippet: low confidence or wrong language
+sample,cvefixes_26208,CVE-2020-15211,Rust,C++,C++,prediction right,
+sample,cvefixes_30902,CVE-2020-12135,C++,C,C,prediction right,
+sample,cvefixes_35363,CVE-2021-26788,C++,C,C,prediction right,
+sample,cvefixes_23435,CVE-2019-13222,C++,C,C,prediction right,
+sample,cvefixes_80891,CVE-2022-3065,JavaScript,Java,JavaScript/TypeScript,source right,classifier confused two languages
+sample,cvefixes_4780,CVE-2019-11925,C++,C,C or C++,undecidable C/C++,
+sample,cvefixes_21597,CVE-2018-20461,Go,C,C,prediction right,
+sample,cvefixes_30720,CVE-2020-11010,Python,Other,Python,source right,short or partial snippet: low confidence or wrong language
+sample,cvefixes_23023,CVE-2022-1714,C,C++,C,source right,C++ rule matched a comment or string
+sample,cvefixes_1584,CVE-2017-6001,C,C++,C,source right,C++ rule matched a comment or string
+sample,cvefixes_58345,CVE-2022-43286,C++,C,C,prediction right,
+sample,cvefixes_22971,CVE-2022-0521,C++,C,C,prediction right,
+sample,msr_186730,CVE-2018-6111,C,C++,C++,prediction right,
+sample,msr_187902,CVE-2016-2451,C,C++,C++,prediction right,
+sample,msr_184782,CVE-2011-3055,C,C++,C++,prediction right,
+sample,msr_188233,CVE-2016-2476,C,C++,C++,prediction right,
+sample,msr_187252,CVE-2018-6138,C,C++,C++,prediction right,
+sample,msr_187385,CVE-2015-3832,C,C++,C++,prediction right,
+sample,msr_185131,CVE-2013-0917,C,C++,C++,prediction right,
+sample,msr_186903,CVE-2017-15415,C,C++,C++,prediction right,
+sample,msr_186593,CVE-2018-18350,C,C++,C++,prediction right,
+sample,msr_185973,CVE-2016-5156,C,C++,C++,prediction right,
+sample,msr_177947,CVE-2011-0064,CPP,C,C,prediction right,
+sample,msr_188106,CVE-2018-9498,C,C++,C++,prediction right,
+sample,msr_187361,CVE-2015-6575,C,C++,C++,prediction right,
+sample,msr_186836,CVE-2018-6063,C,C++,C++,prediction right,
+sample,msr_186362,CVE-2017-5061,C,C++,C++,prediction right,
+sample,msr_185643,CVE-2015-6774,C,C++,C++,prediction right,
+sample,msr_187888,CVE-2016-2464,C,C++,C++,prediction right,
+sample,msr_187832,CVE-2016-2464,C,C++,C++,prediction right,
+sample,msr_188249,CVE-2016-2476,C,C++,C++,prediction right,
+sample,msr_187281,CVE-2017-15402,C,C++,C++,prediction right,
+sample,msr_186572,CVE-2018-18338,C,C++,C++,prediction right,
+sample,msr_185935,CVE-2015-1220,C,C++,C++,prediction right,
+sample,msr_187384,CVE-2015-3832,C,C++,C++,prediction right,
+sample,msr_185755,CVE-2015-1295,C,C++,C++,prediction right,
+sample,msr_184359,CVE-2012-2880,C,C++,C++,prediction right,
+sample,msr_180549,CVE-2016-3132,C,C++,C,source right,C++ rule matched :: outside comments
+sample,msr_188222,CVE-2016-2476,C,C++,C++,prediction right,
+sample,msr_188420,CVE-2016-1621,C,C++,C++,prediction right,
+sample,msr_183889,CVE-2011-2794,C,C++,C++,prediction right,
+sample,msr_183897,CVE-2011-2795,C,C++,C++,prediction right,
+sample,msr_186360,CVE-2017-5060,C,C++,C++,prediction right,
+sample,msr_184538,CVE-2012-2816,C,C++,C++,prediction right,
+sample,msr_186865,CVE-2018-6066,C,C++,C++,prediction right,
+sample,msr_184862,CVE-2013-2926,C,C++,C++,prediction right,
+sample,msr_187539,CVE-2016-3827,C,C++,C++,prediction right,
+sample,msr_184416,CVE-2012-2891,C,C++,C++,prediction right,
+sample,msr_188069,CVE-2017-0547,C,C++,C++,prediction right,
+sample,msr_187525,CVE-2016-3835,C,C++,C++,prediction right,
+sample,msr_187767,CVE-2016-3747,C,C++,C++,prediction right,
+sample,msr_187839,CVE-2016-2464,C,C++,C++,prediction right,
+sample,msr_186582,CVE-2018-18341,C,C++,C++,prediction right,
+sample,msr_186293,CVE-2017-5104,C,C++,C++,prediction right,
+sample,msr_186718,CVE-2018-6111,C,C++,C++,prediction right,
+sample,msr_186747,CVE-2018-6111,C,C++,C++,prediction right,
+sample,msr_186662,CVE-2018-6042,C,C++,C++,prediction right,
+sample,msr_186846,CVE-2018-6063,C,C++,C++,prediction right,
+sample,msr_186750,CVE-2018-6111,C,C++,C++,prediction right,
+sample,msr_185764,CVE-2015-1299,C,C++,C++,prediction right,
+sample,msr_186812,CVE-2018-6057,C,C++,C++,prediction right,
+sample,msr_185354,CVE-2014-3171,C,C++,C++,prediction right,
+changed,cvefixes_2027,CVE-2020-12652,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_2028,CVE-2020-12652,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_2029,CVE-2020-12652,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_2030,CVE-2020-12652,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_2031,CVE-2020-12652,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_2032,CVE-2020-12652,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_2033,CVE-2020-12652,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_2034,CVE-2020-12652,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_2035,CVE-2020-12652,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_2036,CVE-2020-12652,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_2037,CVE-2020-12652,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_2038,CVE-2020-12652,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_2039,CVE-2020-12652,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_2040,CVE-2020-12652,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_2041,CVE-2020-12652,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_2042,CVE-2020-12652,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_2043,CVE-2020-12652,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_3896,CVE-2017-7189,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_31252,CVE-2022-3976,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_32119,CVE-2020-22873,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_32120,CVE-2020-22873,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"
+changed,cvefixes_26025,CVE-2020-15211,C++,C++,C or C++,undecidable C/C++,
+changed,cvefixes_35436,CVE-2021-26788,C++,C++,C,neither,"C++ rule matched a comment or string, or _this->"

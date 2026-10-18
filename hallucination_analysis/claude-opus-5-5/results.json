@@ -1,0 +1,94 @@
+{
+ "all": {
+  "records": 1000,
+  "pairs": 4595,
+  "support_%": {
+   "supported": 76.9,
+   "partly_supported": 6.5,
+   "unsupported": 10.3,
+   "contradicted": 6.2
+  },
+  "hallucinated_%": 16.6,
+  "hallucinated_95ci": [
+   15.3,
+   18.0
+  ],
+  "not_fully_supported_%": 23.1,
+  "question_relevant_%": 100.0,
+  "answerable_from_code_%": 33.1,
+  "records_with_a_hallucinated_pair_%": 45.4,
+  "error_types": {
+   "generic_or_evasive": 331,
+   "wrong_location": 255,
+   "wrong_mechanism": 138,
+   "inapplicable_fix": 137,
+   "wrong_impact": 62,
+   "other": 57,
+   "unfounded_severity": 45,
+   "invented_identifier": 21,
+   "wrong_version_or_product": 7,
+   "wrong_vulnerability_type": 7
+  }
+ },
+ "cvefixes": {
+  "records": 736,
+  "pairs": 3424,
+  "support_%": {
+   "supported": 77.4,
+   "partly_supported": 6.0,
+   "unsupported": 10.2,
+   "contradicted": 6.4
+  },
+  "hallucinated_%": 16.6,
+  "hallucinated_95ci": [
+   14.9,
+   18.3
+  ],
+  "not_fully_supported_%": 22.6,
+  "question_relevant_%": 100.0,
+  "answerable_from_code_%": 31.0,
+  "records_with_a_hallucinated_pair_%": 44.7,
+  "error_types": {
+   "generic_or_evasive": 228,
+   "wrong_location": 186,
+   "wrong_mechanism": 113,
+   "inapplicable_fix": 100,
+   "wrong_impact": 50,
+   "other": 39,
+   "unfounded_severity": 31,
+   "invented_identifier": 16,
+   "wrong_version_or_product": 7,
+   "wrong_vulnerability_type": 4
+  }
+ },
+ "msr": {
+  "records": 264,
+  "pairs": 1171,
+  "support_%": {
+   "supported": 75.6,
+   "partly_supported": 7.8,
+   "unsupported": 10.8,
+   "contradicted": 5.8
+  },
+  "hallucinated_%": 16.7,
+  "hallucinated_95ci": [
+   14.3,
+   19.2
+  ],
+  "not_fully_supported_%": 24.4,
+  "question_relevant_%": 100.0,
+  "answerable_from_code_%": 39.0,
+  "records_with_a_hallucinated_pair_%": 47.3,
+  "error_types": {
+   "generic_or_evasive": 103,
+   "wrong_location": 69,
+   "inapplicable_fix": 37,
+   "wrong_mechanism": 25,
+   "other": 18,
+   "unfounded_severity": 14,
+   "wrong_impact": 12,
+   "invented_identifier": 5,
+   "wrong_vulnerability_type": 3
+  }
+ }
+}

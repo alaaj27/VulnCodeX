@@ -1,0 +1,52 @@
+{
+ "Severity": {
+  "pairs": 88,
+  "hallucinated_%": 53.4,
+  "answerable_from_code_%": 1.1
+ },
+ "Location": {
+  "pairs": 636,
+  "hallucinated_%": 32.7,
+  "answerable_from_code_%": 68.9
+ },
+ "Fix": {
+  "pairs": 940,
+  "hallucinated_%": 26.5,
+  "answerable_from_code_%": 38.0
+ },
+ "Other": {
+  "pairs": 287,
+  "hallucinated_%": 18.5,
+  "answerable_from_code_%": 48.1
+ },
+ "Exploitation": {
+  "pairs": 294,
+  "hallucinated_%": 6.5,
+  "answerable_from_code_%": 17.7
+ },
+ "Affected software": {
+  "pairs": 208,
+  "hallucinated_%": 6.2,
+  "answerable_from_code_%": 19.2
+ },
+ "Mechanism": {
+  "pairs": 602,
+  "hallucinated_%": 6.1,
+  "answerable_from_code_%": 28.1
+ },
+ "Vuln. type": {
+  "pairs": 988,
+  "hallucinated_%": 4.5,
+  "answerable_from_code_%": 23.7
+ },
+ "Impact": {
+  "pairs": 424,
+  "hallucinated_%": 2.1,
+  "answerable_from_code_%": 9.2
+ },
+ "Code behaviour": {
+  "pairs": 128,
+  "hallucinated_%": 1.6,
+  "answerable_from_code_%": 96.9
+ }
+}

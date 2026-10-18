@@ -1,0 +1,119 @@
+{
+ "foundation-sec-8b-instruct": {
+  "records": 2576,
+  "pairs": 11733,
+  "empty_answers": 0,
+  "rougeL_f": 32.05,
+  "rougeL_95ci": [
+   31.68,
+   32.45
+  ],
+  "bleu4": 11.41,
+  "cider_d": 0.372,
+  "answer_words_median": 30.0
+ },
+ "gemma-4-31b-it": {
+  "records": 2576,
+  "pairs": 11733,
+  "empty_answers": 0,
+  "rougeL_f": 25.0,
+  "rougeL_95ci": [
+   24.67,
+   25.34
+  ],
+  "bleu4": 7.61,
+  "cider_d": 0.34,
+  "answer_words_median": 20.0
+ },
+ "gemma-4-31b-it:code_desc": {
+  "records": 1000,
+  "pairs": 4615,
+  "empty_answers": 0,
+  "rougeL_f": 37.91,
+  "rougeL_95ci": [
+   37.2,
+   38.68
+  ],
+  "bleu4": 14.8,
+  "cider_d": 1.005,
+  "answer_words_median": 20.0
+ },
+ "gemma-4-31b-it:code": {
+  "records": 1000,
+  "pairs": 4615,
+  "empty_answers": 0,
+  "rougeL_f": 25.07,
+  "rougeL_95ci": [
+   24.55,
+   25.65
+  ],
+  "bleu4": 7.75,
+  "cider_d": 0.352,
+  "answer_words_median": 20.0
+ },
+ "gemma-4-31b-it:desc_only": {
+  "records": 1000,
+  "pairs": 4615,
+  "empty_answers": 0,
+  "rougeL_f": 42.18,
+  "rougeL_95ci": [
+   41.48,
+   42.91
+  ],
+  "bleu4": 15.28,
+  "cider_d": 1.204,
+  "answer_words_median": 18.0
+ },
+ "gemma-4-31b-it:no_code": {
+  "records": 1000,
+  "pairs": 4615,
+  "empty_answers": 679,
+  "rougeL_f": 17.23,
+  "rougeL_95ci": [
+   16.41,
+   18.06
+  ],
+  "bleu4": 2.47,
+  "cider_d": 0.219,
+  "answer_words_median": 11.0
+ },
+ "opencoder-8b-instruct": {
+  "records": 2576,
+  "pairs": 11733,
+  "empty_answers": 2,
+  "rougeL_f": 31.93,
+  "rougeL_95ci": [
+   31.53,
+   32.34
+  ],
+  "bleu4": 10.8,
+  "cider_d": 0.435,
+  "answer_words_median": 37.0
+ },
+ "qwen2.5-coder-7b-instruct": {
+  "records": 2576,
+  "pairs": 11733,
+  "empty_answers": 1,
+  "rougeL_f": 29.81,
+  "rougeL_95ci": [
+   29.41,
+   30.21
+  ],
+  "bleu4": 10.55,
+  "cider_d": 0.395,
+  "answer_words_median": 25.0
+ },
+ "qwen2.5-coder-7b-vulncodex": {
+  "records": 2576,
+  "pairs": 11733,
+  "empty_answers": 2,
+  "rougeL_f": 42.26,
+  "rougeL_95ci": [
+   41.75,
+   42.75
+  ],
+  "bleu4": 20.12,
+  "cider_d": 1.194,
+  "answer_words_median": 16.0
+ }
+}

@@ -1,0 +1,36 @@
+{
+  "input": {
+    "file": "generated.json",
+    "records": 110817,
+    "pairs": 540654,
+    "cves": 7512
+  },
+  "output": {
+    "file": "clean.json",
+    "records": 26003,
+    "pairs": 119118,
+    "cves": 6912,
+    "by_source": {
+      "msr": 6876,
+      "cvefixes": 19127
+    }
+  },
+  "records_dropped": {
+    "an answer says the whole snippet is unrelated": 21355,
+    "first pair was removed": 1708,
+    "fewer than 2 pairs left": 1254,
+    "conversation does not alternate human/gpt": 24,
+    "snippet is a slice of minified code": 48027,
+    "snippet under 20 characters": 17,
+    "same ID as another record": 11345,
+    "exact duplicate under another ID": 0,
+    "over 200 records for one CVE": 1084
+  },
+  "pairs_dropped": {
+    "answer only says the information is not available": 34152,
+    "cites \"the description\"": 3241,
+    "answer says a detail is not shown in the snippet": 5691,
+    "question already asked in the record": 10,
+    "blank or None": 123
+  }
+}

@@ -1,0 +1,14 @@
+The VulnCodeX dataset (data/, and the model outputs and judge labels in hallucination_analysis/,
+benchmark/ and finetune/) is licensed under the Creative Commons Attribution 4.0 International
+License (CC BY 4.0).
+
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary:         https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 The VulnCodeX authors.
+
+The dataset redistributes code snippets and CVE descriptions from:
+  - CVEfixes (Bhandari, Naseer and Moonen, PROMISE 2021), licensed under CC BY 4.0.
+  - Big-Vul (Fan, Li, Wang and Nguyen, MSR 2020), licensed under the MIT License,
+    Copyright (c) 2020 ZeoVan.
+Please cite both sources when you use VulnCodeX. Further notices are in NOTICE.

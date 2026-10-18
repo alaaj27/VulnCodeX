@@ -1,0 +1,7 @@
+{
+ "requests": 942,
+ "prompt_tokens": 1925809,
+ "completion_tokens": 7727389,
+ "reasoning_tokens": 7562194,
+ "cost_usd": 3.3860864827627233
+}

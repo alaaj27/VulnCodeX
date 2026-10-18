@@ -1,0 +1,12 @@
+# Metrics, statistics, figures and the dataset pipeline (CPU). Python 3.11.
+numpy
+pandas
+sacrebleu==2.6.0
+rouge_score==0.1.2
+pycocoevalcap==1.2
+matplotlib==3.11.2
+scikit-learn==1.9.1
+sentence-transformers==6.1.0
+umap-learn==0.5.12
+transformers==5.18.0
+torch

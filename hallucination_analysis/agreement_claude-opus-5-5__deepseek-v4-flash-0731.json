@@ -1,0 +1,99 @@
+{
+ "A": "claude-opus-5-5",
+ "B": "deepseek-v4-flash-0731",
+ "pairs_compared": 4595,
+ "hallucinated_%": {
+  "claude-opus-5-5": 16.6,
+  "deepseek-v4-flash-0731": 14.3
+ },
+ "support (4 labels)": {
+  "agreement_%": 83.5,
+  "cohen_kappa": 0.548,
+  "confusion (A -> B)": {
+   "contradicted -> contradicted": 198,
+   "contradicted -> partly_supported": 38,
+   "contradicted -> supported": 30,
+   "contradicted -> unsupported": 21,
+   "partly_supported -> contradicted": 43,
+   "partly_supported -> partly_supported": 100,
+   "partly_supported -> supported": 131,
+   "partly_supported -> unsupported": 24,
+   "supported -> contradicted": 85,
+   "supported -> partly_supported": 56,
+   "supported -> supported": 3355,
+   "supported -> unsupported": 39,
+   "unsupported -> contradicted": 63,
+   "unsupported -> partly_supported": 45,
+   "unsupported -> supported": 185,
+   "unsupported -> unsupported": 182
+  }
+ },
+ "hallucinated (yes/no)": {
+  "agreement_%": 89.4,
+  "cohen_kappa": 0.592,
+  "confusion (A -> B)": {
+   "False -> False": 3642,
+   "False -> True": 191,
+   "True -> False": 298,
+   "True -> True": 464
+  }
+ },
+ "answerable_from_code": {
+  "agreement_%": 78.7,
+  "cohen_kappa": 0.552,
+  "confusion (A -> B)": {
+   "False -> False": 2358,
+   "False -> True": 717,
+   "True -> False": 263,
+   "True -> True": 1257
+  }
+ },
+ "question_relevant": {
+  "agreement_%": 100.0,
+  "cohen_kappa": null,
+  "confusion (A -> B)": {
+   "True -> True": 4595
+  }
+ },
+ "error_type_agreement_on_pairs_both_call_hallucinated": {
+  "agreement_%": 78.7,
+  "cohen_kappa": 0.732,
+  "confusion (A -> B)": {
+   "generic_or_evasive -> generic_or_evasive": 110,
+   "generic_or_evasive -> inapplicable_fix": 24,
+   "generic_or_evasive -> other": 2,
+   "generic_or_evasive -> unfounded_severity": 2,
+   "generic_or_evasive -> wrong_location": 16,
+   "inapplicable_fix -> generic_or_evasive": 4,
+   "inapplicable_fix -> inapplicable_fix": 62,
+   "inapplicable_fix -> other": 1,
+   "inapplicable_fix -> wrong_location": 3,
+   "inapplicable_fix -> wrong_mechanism": 1,
+   "invented_identifier -> inapplicable_fix": 3,
+   "invented_identifier -> invented_identifier": 1,
+   "invented_identifier -> other": 1,
+   "invented_identifier -> wrong_location": 6,
+   "other -> generic_or_evasive": 2,
+   "other -> inapplicable_fix": 1,
+   "other -> invented_identifier": 1,
+   "other -> other": 5,
+   "other -> wrong_impact": 1,
+   "other -> wrong_location": 2,
+   "other -> wrong_mechanism": 12,
+   "other -> wrong_version_or_product": 1,
+   "unfounded_severity -> unfounded_severity": 40,
+   "wrong_impact -> generic_or_evasive": 1,
+   "wrong_impact -> wrong_impact": 2,
+   "wrong_location -> generic_or_evasive": 2,
+   "wrong_location -> inapplicable_fix": 2,
+   "wrong_location -> wrong_location": 101,
+   "wrong_location -> wrong_mechanism": 3,
+   "wrong_mechanism -> generic_or_evasive": 6,
+   "wrong_mechanism -> wrong_mechanism": 39,
+   "wrong_mechanism -> wrong_vulnerability_type": 1,
+   "wrong_version_or_product -> wrong_version_or_product": 3,
+   "wrong_vulnerability_type -> inapplicable_fix": 1,
+   "wrong_vulnerability_type -> wrong_vulnerability_type": 2
+  }
+ }
+}

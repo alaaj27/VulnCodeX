@@ -1,0 +1,290 @@
+{
+ "overall": {
+  "records": 26003,
+  "comparable": 24767,
+  "not_comparable": {
+   "unknown": 892,
+   "Objective-C": 222,
+   "Shell": 30,
+   "CoffeeScript": 23,
+   "Perl": 18,
+   "SQL": 18,
+   "Markdown": 10,
+   "HTML": 8,
+   "Matlab": 7,
+   "PowerShell": 3,
+   "Jupyter Notebook": 2,
+   "TeX": 2,
+   "Erlang": 1
+  },
+  "exact_agreement": 0.8995,
+  "agreement_c_cpp_merged": 0.9864,
+  "disagreements": 2488,
+  "disagreements_c_cpp_merged": 338
+ },
+ "cvefixes": {
+  "records": 19127,
+  "comparable": 17891,
+  "not_comparable": {
+   "unknown": 892,
+   "Objective-C": 222,
+   "Shell": 30,
+   "CoffeeScript": 23,
+   "Perl": 18,
+   "SQL": 18,
+   "Markdown": 10,
+   "HTML": 8,
+   "Matlab": 7,
+   "PowerShell": 3,
+   "Jupyter Notebook": 2,
+   "TeX": 2,
+   "Erlang": 1
+  },
+  "exact_agreement": 0.9549,
+  "agreement_c_cpp_merged": 0.9811,
+  "disagreements": 806,
+  "disagreements_c_cpp_merged": 338,
+  "confusion": {
+   "C": {
+    "C": 5580,
+    "C++": 35,
+    "Java": 4,
+    "JavaScript/TypeScript": 5,
+    "Other": 2,
+    "PHP": 6
+   },
+   "C#": {
+    "C": 7,
+    "C#": 237,
+    "C++": 12,
+    "Java": 12
+   },
+   "C++": {
+    "C": 433,
+    "C++": 962,
+    "Java": 5,
+    "JavaScript/TypeScript": 11,
+    "Other": 5
+   },
+   "CoffeeScript": {
+    "JavaScript/TypeScript": 22,
+    "Python": 1
+   },
+   "Erlang": {
+    "C": 1
+   },
+   "Go": {
+    "C": 7,
+    "C#": 5,
+    "Go": 528,
+    "JavaScript/TypeScript": 3
+   },
+   "HTML": {
+    "JavaScript/TypeScript": 7,
+    "Ruby": 1
+   },
+   "Java": {
+    "C": 3,
+    "Java": 1318,
+    "PHP": 2
+   },
+   "JavaScript": {
+    "C": 2,
+    "C++": 1,
+    "Java": 22,
+    "JavaScript/TypeScript": 1948,
+    "Other": 38,
+    "PHP": 1,
+    "Rust": 1
+   },
+   "Jupyter Notebook": {
+    "JavaScript/TypeScript": 2
+   },
+   "Lua": {
+    "C": 28,
+    "JavaScript/TypeScript": 3,
+    "Lua": 4
+   },
+   "Markdown": {
+    "C": 4,
+    "JavaScript/TypeScript": 1,
+    "PHP": 1,
+    "Python": 4
+   },
+   "Matlab": {
+    "C": 7
+   },
+   "Objective-C": {
+    "C": 195,
+    "C#": 4,
+    "C++": 19,
+    "JavaScript/TypeScript": 2,
+    "Other": 2
+   },
+   "PHP": {
+    "C": 1,
+    "Java": 3,
+    "JavaScript/TypeScript": 20,
+    "Other": 17,
+    "PHP": 3875
+   },
+   "Perl": {
+    "C": 2,
+    "Other": 1,
+    "PHP": 14,
+    "Ruby": 1
+   },
+   "PowerShell": {
+    "C": 2,
+    "PHP": 1
+   },
+   "Python": {
+    "C": 3,
+    "C++": 1,
+    "Other": 16,
+    "Python": 1342
+   },
+   "Ruby": {
+    "C": 1,
+    "JavaScript/TypeScript": 1,
+    "Other": 6,
+    "Python": 2,
+    "Ruby": 876
+   },
+   "Rust": {
+    "C": 2,
+    "C++": 11,
+    "Other": 1,
+    "Rust": 95
+   },
+   "SQL": {
+    "C": 14,
+    "JavaScript/TypeScript": 1,
+    "PHP": 3
+   },
+   "Scala": {
+    "C": 3,
+    "Java": 6,
+    "JavaScript/TypeScript": 4,
+    "Kotlin": 16,
+    "Other": 1,
+    "Python": 1,
+    "Ruby": 2,
+    "Scala": 48
+   },
+   "Shell": {
+    "C": 28,
+    "PHP": 2
+   },
+   "Swift": {
+    "C": 1,
+    "C++": 1,
+    "Go": 1,
+    "Other": 3,
+    "Swift": 30
+   },
+   "TeX": {
+    "JavaScript/TypeScript": 2
+   },
+   "TypeScript": {
+    "C": 1,
+    "Java": 2,
+    "JavaScript/TypeScript": 242,
+    "Other": 21,
+    "Rust": 3,
+    "Swift": 1,
+    "jq": 1
+   },
+   "unknown": {
+    "C": 139,
+    "C#": 11,
+    "C++": 36,
+    "Go": 8,
+    "Java": 24,
+    "JavaScript/TypeScript": 275,
+    "Kotlin": 1,
+    "Other": 23,
+    "PHP": 136,
+    "Python": 6,
+    "Ruby": 229,
+    "Scala": 4
+   }
+  }
+ },
+ "msr": {
+  "records": 6876,
+  "comparable": 6876,
+  "not_comparable": {},
+  "exact_agreement": 0.7554,
+  "agreement_c_cpp_merged": 1.0,
+  "disagreements": 1682,
+  "disagreements_c_cpp_merged": 0,
+  "confusion": {
+   "C": {
+    "C": 5121,
+    "C++": 1670
+   },
+   "CPP": {
+    "C": 12,
+    "C++": 73
+   }
+  }
+ },
+ "estimated_accuracy": {
+  "cvefixes": {
+   "first_version_disagreements": 851,
+   "sampled": 100,
+   "wrong_in_sample": 31,
+   "undecidable_in_sample": 7,
+   "changed_outside_sample_frame": 23,
+   "wrong_changed": 0,
+   "estimated_wrong": 264,
+   "estimated_wrong_95ci": [
+    194,
+    346
+   ],
+   "estimated_undecidable": 61,
+   "estimated_accuracy": 0.9852,
+   "estimated_accuracy_95ci": [
+    0.9806,
+    0.9891
+   ],
+   "causes_of_wrong_labels": {
+    "short or partial snippet: low confidence or wrong language": 15,
+    "C++ syntax not in the rule (templates, references, class body)": 8,
+    "classifier confused two languages": 7,
+    "C# below the C# confidence bar, then matched new X(": 1
+   }
+  },
+  "msr": {
+   "first_version_disagreements": 1729,
+   "sampled": 50,
+   "wrong_in_sample": 1,
+   "undecidable_in_sample": 0,
+   "changed_outside_sample_frame": 0,
+   "wrong_changed": 0,
+   "estimated_wrong": 35,
+   "estimated_wrong_95ci": [
+    6,
+    181
+   ],
+   "estimated_undecidable": 0,
+   "estimated_accuracy": 0.9949,
+   "estimated_accuracy_95ci": [
+    0.9737,
+    0.9991
+   ],
+   "causes_of_wrong_labels": {
+    "C++ rule matched :: outside comments": 1
+   }
+  },
+  "overall": {
+   "estimated_wrong": 299,
+   "estimated_accuracy": 0.9879,
+   "estimated_accuracy_95ci": [
+    0.9787,
+    0.9919
+   ]
+  }
+ }
+}

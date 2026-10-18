@@ -1,0 +1,16 @@
+{
+ "model": "qwen2.5-coder-7b-vulncodex",
+ "split": "cve",
+ "variant": "code",
+ "records": 2576,
+ "pairs": 11733,
+ "empty_answers": 2,
+ "empty_answers_%": 0.02,
+ "finish_reasons": {
+  "stop": 2574,
+  "length": 2
+ },
+ "minutes_this_run": 4.1,
+ "max_tokens": 1500,
+ "temperature": 0
+}

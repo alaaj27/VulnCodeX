@@ -1,0 +1,476 @@
+{
+ "topic": {
+  "Vuln. type": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 2569,
+    "score_%": 22.7
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 2569,
+    "score_%": 23.1
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 2569,
+    "score_%": 21.5
+   },
+   "gemma-4-31b-it": {
+    "pairs": 2569,
+    "score_%": 30.4
+   }
+  },
+  "Other": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 776,
+    "score_%": 43.6
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 776,
+    "score_%": 42.6
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 776,
+    "score_%": 38.2
+   },
+   "gemma-4-31b-it": {
+    "pairs": 776,
+    "score_%": 49.1
+   }
+  },
+  "Location": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 1594,
+    "score_%": 41.2
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 1594,
+    "score_%": 42.5
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 1594,
+    "score_%": 36.2
+   },
+   "gemma-4-31b-it": {
+    "pairs": 1594,
+    "score_%": 49.8
+   }
+  },
+  "Code behaviour": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 383,
+    "score_%": 96.3
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 383,
+    "score_%": 95.2
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 383,
+    "score_%": 92.4
+   },
+   "gemma-4-31b-it": {
+    "pairs": 383,
+    "score_%": 97.9
+   }
+  },
+  "Mechanism": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 1496,
+    "score_%": 22.9
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 1496,
+    "score_%": 22.7
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 1496,
+    "score_%": 20.0
+   },
+   "gemma-4-31b-it": {
+    "pairs": 1496,
+    "score_%": 32.5
+   }
+  },
+  "Fix": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 2316,
+    "score_%": 29.5
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 2316,
+    "score_%": 31.5
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 2316,
+    "score_%": 26.3
+   },
+   "gemma-4-31b-it": {
+    "pairs": 2316,
+    "score_%": 37.8
+   }
+  },
+  "Impact": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 1097,
+    "score_%": 35.9
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 1097,
+    "score_%": 35.2
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 1097,
+    "score_%": 32.0
+   },
+   "gemma-4-31b-it": {
+    "pairs": 1097,
+    "score_%": 46.4
+   }
+  },
+  "Severity": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 224,
+    "score_%": 38.2
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 224,
+    "score_%": 42.0
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 224,
+    "score_%": 40.8
+   },
+   "gemma-4-31b-it": {
+    "pairs": 224,
+    "score_%": 43.8
+   }
+  },
+  "Exploitation": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 766,
+    "score_%": 26.3
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 766,
+    "score_%": 27.8
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 766,
+    "score_%": 26.8
+   },
+   "gemma-4-31b-it": {
+    "pairs": 766,
+    "score_%": 38.2
+   }
+  },
+  "Affected software": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 512,
+    "score_%": 19.9
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 512,
+    "score_%": 20.5
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 512,
+    "score_%": 18.9
+   },
+   "gemma-4-31b-it": {
+    "pairs": 512,
+    "score_%": 24.1
+   }
+  }
+ },
+ "language": {
+  "C++": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 1192,
+    "score_%": 31.2
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 1192,
+    "score_%": 29.4
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 1192,
+    "score_%": 26.7
+   },
+   "gemma-4-31b-it": {
+    "pairs": 1192,
+    "score_%": 40.2
+   }
+  },
+  "C": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 5526,
+    "score_%": 32.1
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 5526,
+    "score_%": 33.5
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 5526,
+    "score_%": 28.2
+   },
+   "gemma-4-31b-it": {
+    "pairs": 5526,
+    "score_%": 41.4
+   }
+  },
+  "Ruby": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 479,
+    "score_%": 29.0
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 479,
+    "score_%": 24.7
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 479,
+    "score_%": 25.5
+   },
+   "gemma-4-31b-it": {
+    "pairs": 479,
+    "score_%": 32.5
+   }
+  },
+  "JavaScript/TypeScript": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 1023,
+    "score_%": 33.7
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 1023,
+    "score_%": 32.9
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 1023,
+    "score_%": 32.1
+   },
+   "gemma-4-31b-it": {
+    "pairs": 1023,
+    "score_%": 43.3
+   }
+  },
+  "C#": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 105,
+    "score_%": 47.6
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 105,
+    "score_%": 45.7
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 105,
+    "score_%": 41.4
+   },
+   "gemma-4-31b-it": {
+    "pairs": 105,
+    "score_%": 67.1
+   }
+  },
+  "PHP": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 1680,
+    "score_%": 25.5
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 1680,
+    "score_%": 29.9
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 1680,
+    "score_%": 26.2
+   },
+   "gemma-4-31b-it": {
+    "pairs": 1680,
+    "score_%": 31.4
+   }
+  },
+  "Python": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 659,
+    "score_%": 28.3
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 659,
+    "score_%": 30.0
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 659,
+    "score_%": 27.5
+   },
+   "gemma-4-31b-it": {
+    "pairs": 659,
+    "score_%": 33.8
+   }
+  },
+  "Other": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 62,
+    "score_%": 40.3
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 62,
+    "score_%": 41.1
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 62,
+    "score_%": 40.3
+   },
+   "gemma-4-31b-it": {
+    "pairs": 62,
+    "score_%": 50.0
+   }
+  },
+  "Java": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 686,
+    "score_%": 50.4
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 686,
+    "score_%": 47.2
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 686,
+    "score_%": 49.3
+   },
+   "gemma-4-31b-it": {
+    "pairs": 686,
+    "score_%": 54.7
+   }
+  },
+  "Go": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 265,
+    "score_%": 28.5
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 265,
+    "score_%": 25.3
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 265,
+    "score_%": 24.2
+   },
+   "gemma-4-31b-it": {
+    "pairs": 265,
+    "score_%": 37.0
+   }
+  },
+  "Rust": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 27,
+    "score_%": 9.3
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 27,
+    "score_%": 22.2
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 27,
+    "score_%": 14.8
+   },
+   "gemma-4-31b-it": {
+    "pairs": 27,
+    "score_%": 25.9
+   }
+  },
+  "Scala": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 15,
+    "score_%": 46.7
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 15,
+    "score_%": 30.0
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 15,
+    "score_%": 26.7
+   },
+   "gemma-4-31b-it": {
+    "pairs": 15,
+    "score_%": 70.0
+   }
+  },
+  "Swift": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 10,
+    "score_%": 10.0
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 10,
+    "score_%": 5.0
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 10,
+    "score_%": 0.0
+   },
+   "gemma-4-31b-it": {
+    "pairs": 10,
+    "score_%": 50.0
+   }
+  },
+  "Kotlin": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 4,
+    "score_%": 100.0
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 4,
+    "score_%": 0.0
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 4,
+    "score_%": 87.5
+   },
+   "gemma-4-31b-it": {
+    "pairs": 4,
+    "score_%": 100.0
+   }
+  }
+ },
+ "source": {
+  "Big-Vul": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 3081,
+    "score_%": 35.0
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 3081,
+    "score_%": 36.0
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 3081,
+    "score_%": 29.9
+   },
+   "gemma-4-31b-it": {
+    "pairs": 3081,
+    "score_%": 44.4
+   }
+  },
+  "CVEfixes": {
+   "foundation-sec-8b-instruct": {
+    "pairs": 8652,
+    "score_%": 31.0
+   },
+   "qwen2.5-coder-7b-instruct": {
+    "pairs": 8652,
+    "score_%": 31.5
+   },
+   "opencoder-8b-instruct": {
+    "pairs": 8652,
+    "score_%": 29.0
+   },
+   "gemma-4-31b-it": {
+    "pairs": 8652,
+    "score_%": 38.7
+   }
+  }
+ }
+}

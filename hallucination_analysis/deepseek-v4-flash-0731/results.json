@@ -1,0 +1,95 @@
+{
+ "all": {
+  "records": 1000,
+  "pairs": 4595,
+  "support_%": {
+   "supported": 80.5,
+   "partly_supported": 5.2,
+   "unsupported": 5.8,
+   "contradicted": 8.5
+  },
+  "hallucinated_%": 14.3,
+  "hallucinated_95ci": [
+   13.0,
+   15.6
+  ],
+  "not_fully_supported_%": 19.5,
+  "question_relevant_%": 100.0,
+  "answerable_from_code_%": 43.0,
+  "records_with_a_hallucinated_pair_%": 39.1,
+  "error_types": {
+   "wrong_location": 275,
+   "generic_or_evasive": 177,
+   "inapplicable_fix": 134,
+   "wrong_mechanism": 132,
+   "wrong_impact": 66,
+   "unfounded_severity": 48,
+   "other": 47,
+   "wrong_version_or_product": 6,
+   "wrong_vulnerability_type": 6,
+   "invented_identifier": 3
+  }
+ },
+ "cvefixes": {
+  "records": 736,
+  "pairs": 3424,
+  "support_%": {
+   "supported": 81.4,
+   "partly_supported": 5.1,
+   "unsupported": 5.7,
+   "contradicted": 7.9
+  },
+  "hallucinated_%": 13.6,
+  "hallucinated_95ci": [
+   12.1,
+   15.0
+  ],
+  "not_fully_supported_%": 18.6,
+  "question_relevant_%": 100.0,
+  "answerable_from_code_%": 40.9,
+  "records_with_a_hallucinated_pair_%": 37.9,
+  "error_types": {
+   "wrong_location": 189,
+   "generic_or_evasive": 125,
+   "inapplicable_fix": 98,
+   "wrong_mechanism": 97,
+   "wrong_impact": 53,
+   "unfounded_severity": 33,
+   "other": 32,
+   "wrong_version_or_product": 5,
+   "wrong_vulnerability_type": 4,
+   "invented_identifier": 2
+  }
+ },
+ "msr": {
+  "records": 264,
+  "pairs": 1171,
+  "support_%": {
+   "supported": 78.1,
+   "partly_supported": 5.6,
+   "unsupported": 6.1,
+   "contradicted": 10.2
+  },
+  "hallucinated_%": 16.2,
+  "hallucinated_95ci": [
+   13.7,
+   18.9
+  ],
+  "not_fully_supported_%": 21.9,
+  "question_relevant_%": 100.0,
+  "answerable_from_code_%": 49.0,
+  "records_with_a_hallucinated_pair_%": 42.4,
+  "error_types": {
+   "wrong_location": 86,
+   "generic_or_evasive": 52,
+   "inapplicable_fix": 36,
+   "wrong_mechanism": 35,
+   "unfounded_severity": 15,
+   "other": 15,
+   "wrong_impact": 13,
+   "wrong_vulnerability_type": 2,
+   "wrong_version_or_product": 1,
+   "invented_identifier": 1
+  }
+ }
+}

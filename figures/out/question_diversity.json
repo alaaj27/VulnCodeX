@@ -1,0 +1,88 @@
+{
+ "questions": 119118,
+ "distinct_questions": 27546,
+ "opening": {
+  "count": 26003,
+  "distinct": 3628,
+  "top5_coverage_%": 63.8,
+  "top20_coverage_%": 72.8,
+  "top5": [
+   [
+    "what is the vulnerability in the given code?",
+    6827
+   ],
+   [
+    "what is the vulnerability in this code?",
+    5955
+   ],
+   [
+    "what is the vulnerability in the provided code?",
+    2295
+   ],
+   [
+    "what is the vulnerability type in this code?",
+    944
+   ],
+   [
+    "what is the vulnerability type in the given code?",
+    565
+   ]
+  ]
+ },
+ "follow_up": {
+  "count": 93115,
+  "distinct": 24097,
+  "top5_coverage_%": 24.4,
+  "top20_coverage_%": 41.0,
+  "top5": [
+   [
+    "how can this vulnerability be fixed?",
+    7945
+   ],
+   [
+    "what is the impact of this vulnerability?",
+    5214
+   ],
+   [
+    "how can the vulnerability be fixed?",
+    3225
+   ],
+   [
+    "how does the vulnerability work?",
+    3201
+   ],
+   [
+    "what is the potential impact of this vulnerability?",
+    3131
+   ]
+  ]
+ },
+ "questions_seen_once_%": 81.8,
+ "answers": {
+  "count": 119118,
+  "distinct": 101243,
+  "distinct_%": 85.0
+ },
+ "distinct_2": {
+  "questions": 0.044,
+  "answers": 0.104
+ },
+ "map": {
+  "embedding_model": "all-MiniLM-L6-v2",
+  "umap": "cosine, n_neighbors=30, min_dist=0.1, seed 0",
+  "topics_coloured": [
+   "Vuln. type",
+   "Fix",
+   "Location",
+   "Mechanism",
+   "Impact",
+   "Exploitation"
+  ],
+  "pooled_as_other": [
+   "Affected software",
+   "Code behaviour",
+   "Other",
+   "Severity"
+  ]
+ }
+}

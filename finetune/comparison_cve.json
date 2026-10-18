@@ -1,0 +1,173 @@
+{
+ "all": {
+  "questions": 11728,
+  "records": 2575,
+  "zero_shot": 32.7,
+  "fine_tuned": 35.4,
+  "difference": 2.8,
+  "difference_95ci": [
+   1.6,
+   3.9
+  ]
+ },
+ "by_topic": {
+  "Vuln. type": {
+   "questions": 2568,
+   "records": 2502,
+   "zero_shot": 23.1,
+   "fine_tuned": 26.9,
+   "difference": 3.8,
+   "difference_95ci": [
+    2.1,
+    5.5
+   ]
+  },
+  "Fix": {
+   "questions": 2316,
+   "records": 1840,
+   "zero_shot": 31.5,
+   "fine_tuned": 34.0,
+   "difference": 2.5,
+   "difference_95ci": [
+    0.4,
+    4.7
+   ]
+  },
+  "Location": {
+   "questions": 1594,
+   "records": 1265,
+   "zero_shot": 42.5,
+   "fine_tuned": 43.7,
+   "difference": 1.2,
+   "difference_95ci": [
+    -1.7,
+    4.0
+   ]
+  },
+  "Mechanism": {
+   "questions": 1496,
+   "records": 1357,
+   "zero_shot": 22.7,
+   "fine_tuned": 25.2,
+   "difference": 2.5,
+   "difference_95ci": [
+    0.5,
+    4.5
+   ]
+  },
+  "Impact": {
+   "questions": 1097,
+   "records": 1074,
+   "zero_shot": 35.2,
+   "fine_tuned": 39.3,
+   "difference": 4.1,
+   "difference_95ci": [
+    1.4,
+    6.9
+   ]
+  },
+  "Other": {
+   "questions": 774,
+   "records": 652,
+   "zero_shot": 42.7,
+   "fine_tuned": 45.2,
+   "difference": 2.5,
+   "difference_95ci": [
+    -0.8,
+    5.8
+   ]
+  },
+  "Exploitation": {
+   "questions": 765,
+   "records": 693,
+   "zero_shot": 27.7,
+   "fine_tuned": 36.4,
+   "difference": 8.7,
+   "difference_95ci": [
+    5.7,
+    11.7
+   ]
+  },
+  "Affected software": {
+   "questions": 511,
+   "records": 468,
+   "zero_shot": 20.5,
+   "fine_tuned": 18.7,
+   "difference": -1.9,
+   "difference_95ci": [
+    -4.7,
+    1.2
+   ]
+  },
+  "Code behaviour": {
+   "questions": 383,
+   "records": 260,
+   "zero_shot": 95.2,
+   "fine_tuned": 91.9,
+   "difference": -3.3,
+   "difference_95ci": [
+    -5.6,
+    -1.0
+   ]
+  },
+  "Severity": {
+   "questions": 224,
+   "records": 224,
+   "zero_shot": 42.0,
+   "fine_tuned": 43.3,
+   "difference": 1.3,
+   "difference_95ci": [
+    -4.9,
+    7.8
+   ]
+  }
+ },
+ "by_period_cvefixes": {
+  "old (<=2015)": {
+   "questions": 1757,
+   "records": 356,
+   "zero_shot": 37.5,
+   "fine_tuned": 42.1,
+   "difference": 4.7,
+   "difference_95ci": [
+    1.8,
+    7.5
+   ]
+  },
+  "recent (>=2022)": {
+   "questions": 1504,
+   "records": 325,
+   "zero_shot": 29.3,
+   "fine_tuned": 32.1,
+   "difference": 2.8,
+   "difference_95ci": [
+    -0.3,
+    5.9
+   ]
+  }
+ },
+ "by_source": {
+  "CVEfixes": {
+   "questions": 8647,
+   "records": 1897,
+   "zero_shot": 31.5,
+   "fine_tuned": 34.6,
+   "difference": 3.2,
+   "difference_95ci": [
+    1.9,
+    4.4
+   ]
+  },
+  "Big-Vul": {
+   "questions": 3081,
+   "records": 678,
+   "zero_shot": 36.0,
+   "fine_tuned": 37.7,
+   "difference": 1.7,
+   "difference_95ci": [
+    -0.5,
+    3.9
+   ]
+  }
+ }
+}

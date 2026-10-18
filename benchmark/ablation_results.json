@@ -1,0 +1,66 @@
+{
+ "model": "gemma-4-31b-it",
+ "records": 999,
+ "settings": {
+  "code": {
+   "judge_%": 39.8,
+   "judge_95ci": [
+    37.8,
+    42.0
+   ],
+   "diff_vs_code": 0.0,
+   "diff_95ci": [
+    0.0,
+    0.0
+   ],
+   "rougeL": 25.07,
+   "bleu4": 7.75,
+   "cider": 0.352
+  },
+  "no_code": {
+   "judge_%": 16.8,
+   "judge_95ci": [
+    15.1,
+    18.7
+   ],
+   "diff_vs_code": -23.1,
+   "diff_95ci": [
+    -25.3,
+    -20.8
+   ],
+   "rougeL": 17.23,
+   "bleu4": 2.47,
+   "cider": 0.219
+  },
+  "code_desc": {
+   "judge_%": 86.3,
+   "judge_95ci": [
+    85.1,
+    87.5
+   ],
+   "diff_vs_code": 46.5,
+   "diff_95ci": [
+    44.1,
+    48.6
+   ],
+   "rougeL": 37.91,
+   "bleu4": 14.8,
+   "cider": 1.005
+  },
+  "desc_only": {
+   "judge_%": 83.9,
+   "judge_95ci": [
+    82.8,
+    84.9
+   ],
+   "diff_vs_code": 44.0,
+   "diff_95ci": [
+    41.2,
+    46.7
+   ],
+   "rougeL": 42.18,
+   "bleu4": 15.28,
+   "cider": 1.204
+  }
+ }
+}

@@ -1,0 +1,71 @@
+Numbers quoted in the paper text. Regenerate with make_dataset_stats.py.
+
+== Cleaning (cleaning_report.json) ==
+input: {'file': 'generated.json', 'records': 110817, 'pairs': 540654, 'cves': 7512}
+output: {'file': 'clean.json', 'records': 26003, 'pairs': 119118, 'cves': 6912, 'by_source': {'msr': 6876, 'cvefixes': 19127}}
+records dropped | an answer says the whole snippet is unrelated: 21,355
+records dropped | first pair was removed: 1,708
+records dropped | fewer than 2 pairs left: 1,254
+records dropped | conversation does not alternate human/gpt: 24
+records dropped | snippet is a slice of minified code: 48,027
+records dropped | snippet under 20 characters: 17
+records dropped | same ID as another record: 11,345
+records dropped | exact duplicate under another ID: 0
+records dropped | over 200 records for one CVE: 1,084
+pairs dropped | answer only says the information is not available: 34,152
+pairs dropped | cites "the description": 3,241
+pairs dropped | answer says a detail is not shown in the snippet: 5,691
+pairs dropped | question already asked in the record: 10
+pairs dropped | blank or None: 123
+records kept: 23.5%   pairs kept: 22.0%   CVEs kept: 92.0%
+
+== Size and coverage ==
+Big-Vul: records 6,876 (26.4%), pairs 30,564, CVEs 2,902, distinct snippets 6,876
+CVEfixes: records 19,127 (73.6%), pairs 88,554, CVEs 5,256, distinct snippets 16,181
+All: records 26,003 (100.0%), pairs 119,118, CVEs 6,911, distinct snippets 23,057
+CVEs in both sources: 1,247
+CVE years: 1999-2024; before 2010: 26
+CVEs per year: 1999:1, 2000:1, 2002:1, 2005:1, 2006:4, 2007:4, 2008:5, 2009:9, 2010:43, 2011:179, 2012:174, 2013:349, 2014:385, 2015:455, 2016:817, 2017:856, 2018:659, 2019:476, 2020:494, 2021:742, 2022:691, 2023:428, 2024:137
+
+== Code snippets ==
+Big-Vul: lines median 46, mean 84.6, min 3, max 993; single-line 0.0%; <=5 lines 2.0%; <=10 lines 8.3%; >50 lines 46.6%
+CVEfixes: lines median 28, mean 59.8, min 1, max 1,103; single-line 1.1%; <=5 lines 8.8%; <=10 lines 20.6%; >50 lines 31.5%
+All: lines median 32, mean 66.4, min 1, max 1,103; single-line 0.8%; <=5 lines 7.0%; <=10 lines 17.4%; >50 lines 35.5%
+
+== Conversations ==
+pairs per record: median 5, mean 4.58, min 2, max 11; 3 to 6 pairs: 83.7%
+question words: median 8; answer words: median 21, >40 words 5.8%
+conversation words: median 134
+
+== Question topics ==
+Vuln. type: 21.6%
+Fix: 20.1%
+Location: 14.1%
+Mechanism: 12.8%
+Impact: 9.3%
+Other: 6.4%
+Exploitation: 6.2%
+Affected software: 4.4%
+Code behaviour: 3.3%
+Severity: 1.8%
+
+== Redundancy and concentration ==
+Big-Vul: records sharing a snippet 0 (0.0%); snippets with several CVEs 0; records per CVE median 1, max 117; CVEs with one record 62.1%; top-10 CVE share 8.6%
+CVEfixes: records sharing a snippet 4,326 (22.6%); snippets with several CVEs 1,248; records per CVE median 1, max 200; CVEs with one record 54.8%; top-10 CVE share 9.1%
+All: records sharing a snippet 4,326 (16.6%); snippets with several CVEs 1,248; records per CVE median 2, max 200; CVEs with one record 46.3%; top-10 CVE share 6.7%
+
+== Programming languages (record_languages_v2.json) ==
+C: records 11,597 (44.6%), of which MSR 5,133; pairs 54,567; CVEs 3,553
+PHP: records 4,041 (15.5%), of which MSR 0; pairs 17,791; CVEs 815
+C++: records 2,821 (10.8%), of which MSR 1,743; pairs 12,221; CVEs 1,041
+JavaScript/TypeScript: records 2,549 (9.8%), of which MSR 0; pairs 11,310; CVEs 593
+Java: records 1,396 (5.4%), of which MSR 0; pairs 6,760; CVEs 330
+Python: records 1,356 (5.2%), of which MSR 0; pairs 6,398; CVEs 372
+Ruby: records 1,109 (4.3%), of which MSR 0; pairs 4,830; CVEs 208
+Go: records 537 (2.1%), of which MSR 0; pairs 2,540; CVEs 123
+C#: records 257 (1.0%), of which MSR 0; pairs 1,158; CVEs 52
+Rust: records 99 (0.4%), of which MSR 0; pairs 484; CVEs 27
+Other: records 241 (0.9%), of which MSR 0; pairs 1,059; CVEs 104
+pooled into Other: Kotlin 17, Lua 4, Scala 52, Swift 31, jq 1; no confident prediction 136
+C + C++: 55.4%   PHP + JavaScript/TypeScript: 25.3%
+pairs per record by language (table rows): 4.3 (C++) to 4.9 (Rust)

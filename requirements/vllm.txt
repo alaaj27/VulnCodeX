@@ -1,0 +1,6 @@
+# Serving models and building prompts (benchmark/, finetune/ evaluation, hallucination_analysis/gpt-oss-120b).
+# Python 3.11, CUDA 12.9. Used for: run_model.py, score_judge.py, build_prompts.py, prepare_data.py.
+vllm==0.30.0
+transformers==5.18.0
+requests
+huggingface_hub

@@ -1,0 +1,12 @@
+Rule (fixed before the ablation was run): the fastest model whose LLM-as-judge score lies within the
+95% interval of the best model. Only Gemma-4-31B qualifies.
+
+Ablation model chosen by the rule: gemma-4-31b-it
+Best judge score: gemma-4-31b-it 40.2 (95% CI [38.8, 41.6])
+Within the best model's interval: gemma-4-31b-it
+
+foundation-sec-8b-instruct: judge 32.0 [30.8, 33.2], main run 5.9 min
+qwen2.5-coder-7b-instruct: judge 32.7 [31.5, 34.0], main run 4.3 min
+opencoder-8b-instruct: judge 29.3 [28.0, 30.5], main run 6.0 min
+gemma-4-31b-it: judge 40.2 [38.8, 41.6], main run 33.7 min
+

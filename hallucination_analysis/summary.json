@@ -1,0 +1,190 @@
+{
+ "judges": [
+  "claude-opus-5-5",
+  "deepseek-v4-flash-0731",
+  "gpt-oss-120b"
+ ],
+ "records": 1000,
+ "pairs": 4595,
+ "hallucinated": {
+  "claude-opus-5-5": {
+   "all": {
+    "pairs_%": 16.6,
+    "pairs_95ci": [
+     15.3,
+     18.0
+    ],
+    "records_with_one_or_more_%": 45.4
+   },
+   "cvefixes": {
+    "pairs_%": 16.6,
+    "pairs_95ci": [
+     14.9,
+     18.3
+    ],
+    "records_with_one_or_more_%": 44.7
+   },
+   "msr": {
+    "pairs_%": 16.7,
+    "pairs_95ci": [
+     14.3,
+     19.2
+    ],
+    "records_with_one_or_more_%": 47.3
+   }
+  },
+  "deepseek-v4-flash-0731": {
+   "all": {
+    "pairs_%": 14.3,
+    "pairs_95ci": [
+     12.9,
+     15.5
+    ],
+    "records_with_one_or_more_%": 39.1
+   },
+   "cvefixes": {
+    "pairs_%": 13.6,
+    "pairs_95ci": [
+     12.1,
+     15.2
+    ],
+    "records_with_one_or_more_%": 37.9
+   },
+   "msr": {
+    "pairs_%": 16.2,
+    "pairs_95ci": [
+     13.7,
+     18.9
+    ],
+    "records_with_one_or_more_%": 42.4
+   }
+  },
+  "gpt-oss-120b": {
+   "all": {
+    "pairs_%": 16.5,
+    "pairs_95ci": [
+     15.2,
+     18.0
+    ],
+    "records_with_one_or_more_%": 44.2
+   },
+   "cvefixes": {
+    "pairs_%": 16.4,
+    "pairs_95ci": [
+     14.7,
+     18.0
+    ],
+    "records_with_one_or_more_%": 43.3
+   },
+   "msr": {
+    "pairs_%": 17.0,
+    "pairs_95ci": [
+     14.5,
+     19.5
+    ],
+    "records_with_one_or_more_%": 46.6
+   }
+  },
+  "majority": {
+   "all": {
+    "pairs_%": 14.8,
+    "pairs_95ci": [
+     13.5,
+     16.2
+    ],
+    "records_with_one_or_more_%": 41.5
+   },
+   "cvefixes": {
+    "pairs_%": 14.5,
+    "pairs_95ci": [
+     12.9,
+     16.0
+    ],
+    "records_with_one_or_more_%": 40.2
+   },
+   "msr": {
+    "pairs_%": 15.9,
+    "pairs_95ci": [
+     13.4,
+     18.5
+    ],
+    "records_with_one_or_more_%": 45.1
+   }
+  }
+ },
+ "votes_for_hallucinated_%": {
+  "0_of_3": 75.4,
+  "1_of_3": 9.8,
+  "2_of_3": 6.9,
+  "3_of_3": 7.9
+ },
+ "answerable_from_code_%": {
+  "claude-opus-5-5": 33.1,
+  "deepseek-v4-flash-0731": 43.0,
+  "gpt-oss-120b": 28.3,
+  "majority": 34.6
+ },
+ "support_%": {
+  "claude-opus-5-5": {
+   "supported": 76.9,
+   "partly_supported": 6.5,
+   "unsupported": 10.3,
+   "contradicted": 6.2
+  },
+  "deepseek-v4-flash-0731": {
+   "supported": 80.5,
+   "partly_supported": 5.2,
+   "unsupported": 5.8,
+   "contradicted": 8.5
+  },
+  "gpt-oss-120b": {
+   "supported": 76.5,
+   "partly_supported": 7.0,
+   "unsupported": 10.0,
+   "contradicted": 6.5
+  }
+ },
+ "pairwise": {
+  "claude-opus-5-5 vs deepseek-v4-flash-0731": {
+   "hallucinated_agreement_%": 89.4,
+   "hallucinated_kappa": 0.592,
+   "support_kappa": 0.548,
+   "answerable_kappa": 0.552
+  },
+  "claude-opus-5-5 vs gpt-oss-120b": {
+   "hallucinated_agreement_%": 87.5,
+   "hallucinated_kappa": 0.546,
+   "support_kappa": 0.472,
+   "answerable_kappa": 0.573
+  },
+  "deepseek-v4-flash-0731 vs gpt-oss-120b": {
+   "hallucinated_agreement_%": 89.7,
+   "hallucinated_kappa": 0.607,
+   "support_kappa": 0.527,
+   "answerable_kappa": 0.586
+  }
+ },
+ "agreement_with_majority_%": {
+  "claude-opus-5-5": 93.5,
+  "deepseek-v4-flash-0731": 95.8,
+  "gpt-oss-120b": 93.9
+ },
+ "fleiss_kappa": {
+  "hallucinated": 0.581,
+  "support": 0.514,
+  "answerable_from_code": 0.567
+ },
+ "majority_error_types": {
+  "generic_or_evasive": 197,
+  "wrong_location": 182,
+  "no_agreement": 98,
+  "inapplicable_fix": 77,
+  "wrong_mechanism": 65,
+  "unfounded_severity": 41,
+  "invented_identifier": 5,
+  "wrong_version_or_product": 5,
+  "other": 5,
+  "wrong_impact": 4,
+  "wrong_vulnerability_type": 2
+ }
+}

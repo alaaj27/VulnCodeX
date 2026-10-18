@@ -1,0 +1,351 @@
+{
+ "input": "vulncodex_v3.json",
+ "groups": 6545,
+ "largest_group_records": 929,
+ "orders_tried": 300,
+ "cve_seed": 230,
+ "temporal_seed": 182,
+ "temporal_test_from_year": 2023,
+ "cross_language_seed": 105,
+ "cross_language_seen": [
+  "C",
+  "C++",
+  "JavaScript/TypeScript",
+  "PHP"
+ ],
+ "cross_language_left_out": {
+  "groups": 112,
+  "records": 3327
+ },
+ "max_relative_deviation": {
+  "cve": 0.215,
+  "temporal": 0.024,
+  "cross_language": 0.008
+ },
+ "random": {
+  "train": {
+   "records": 20803,
+   "pairs": 95258,
+   "cves": 6217,
+   "snippets": 18686,
+   "msr_%": 26.4,
+   "languages_%": {
+    "C": 44.6,
+    "PHP": 15.5,
+    "C++": 10.8,
+    "JavaScript/TypeScript": 9.8,
+    "Java": 5.4,
+    "Python": 5.2,
+    "Ruby": 4.3,
+    "Go": 2.1,
+    "C#": 1.0,
+    "Other": 0.5,
+    "Rust": 0.4,
+    "Scala": 0.2,
+    "Swift": 0.1,
+    "Kotlin": 0.1,
+    "Lua": 0.0,
+    "jq": 0.0
+   },
+   "cve_year_2023_or_later_%": 7.4
+  },
+  "validation": {
+   "records": 2601,
+   "pairs": 11949,
+   "cves": 1619,
+   "snippets": 2530,
+   "msr_%": 26.4,
+   "languages_%": {
+    "C": 44.6,
+    "PHP": 15.5,
+    "C++": 10.8,
+    "JavaScript/TypeScript": 9.8,
+    "Java": 5.4,
+    "Python": 5.2,
+    "Ruby": 4.3,
+    "Go": 2.1,
+    "C#": 1.0,
+    "Other": 0.5,
+    "Rust": 0.4,
+    "Scala": 0.2,
+    "Swift": 0.1,
+    "Kotlin": 0.1
+   },
+   "cve_year_2023_or_later_%": 7.8
+  },
+  "test": {
+   "records": 2599,
+   "pairs": 11911,
+   "cves": 1555,
+   "snippets": 2536,
+   "msr_%": 26.5,
+   "languages_%": {
+    "C": 44.7,
+    "PHP": 15.5,
+    "C++": 10.9,
+    "JavaScript/TypeScript": 9.8,
+    "Java": 5.3,
+    "Python": 5.2,
+    "Ruby": 4.3,
+    "Go": 2.0,
+    "C#": 1.0,
+    "Other": 0.5,
+    "Rust": 0.4,
+    "Scala": 0.2,
+    "Swift": 0.1,
+    "Kotlin": 0.0,
+    "Lua": 0.0
+   },
+   "cve_year_2023_or_later_%": 5.9
+  },
+  "leakage": {
+   "test_records_with_cve_in_train_%": 85.9,
+   "test_records_with_snippet_in_train_%": 15.5
+  }
+ },
+ "cve": {
+  "train": {
+   "records": 20832,
+   "pairs": 95410,
+   "cves": 5531,
+   "snippets": 18141,
+   "msr_%": 26.4,
+   "languages_%": {
+    "C": 44.6,
+    "PHP": 15.5,
+    "C++": 10.9,
+    "JavaScript/TypeScript": 9.9,
+    "Java": 5.4,
+    "Python": 5.2,
+    "Ruby": 4.2,
+    "Go": 2.1,
+    "C#": 1.0,
+    "Other": 0.5,
+    "Rust": 0.4,
+    "Scala": 0.2,
+    "Swift": 0.1,
+    "Kotlin": 0.1,
+    "Lua": 0.0,
+    "jq": 0.0
+   },
+   "cve_year_2023_or_later_%": 7.4
+  },
+  "validation": {
+   "records": 2595,
+   "pairs": 11975,
+   "cves": 687,
+   "snippets": 2446,
+   "msr_%": 26.9,
+   "languages_%": {
+    "C": 44.7,
+    "PHP": 15.6,
+    "C++": 11.1,
+    "JavaScript/TypeScript": 9.6,
+    "Java": 5.4,
+    "Python": 5.3,
+    "Ruby": 4.4,
+    "Go": 2.1,
+    "C#": 0.9,
+    "Other": 0.5,
+    "Kotlin": 0.1,
+    "Rust": 0.1,
+    "Swift": 0.1,
+    "Scala": 0.0,
+    "Lua": 0.0
+   },
+   "cve_year_2023_or_later_%": 7.2
+  },
+  "test": {
+   "records": 2576,
+   "pairs": 11733,
+   "cves": 693,
+   "snippets": 2470,
+   "msr_%": 26.3,
+   "languages_%": {
+    "C": 44.8,
+    "PHP": 15.8,
+    "C++": 10.6,
+    "JavaScript/TypeScript": 9.4,
+    "Python": 5.4,
+    "Java": 5.4,
+    "Ruby": 4.3,
+    "Go": 2.1,
+    "C#": 1.0,
+    "Other": 0.6,
+    "Rust": 0.2,
+    "Scala": 0.2,
+    "Swift": 0.1,
+    "Kotlin": 0.0
+   },
+   "cve_year_2023_or_later_%": 6.9
+  }
+ },
+ "temporal": {
+  "train": {
+   "records": 21437,
+   "pairs": 97601,
+   "cves": 5636,
+   "snippets": 18824,
+   "msr_%": 28.5,
+   "languages_%": {
+    "C": 45.4,
+    "PHP": 15.7,
+    "C++": 11.3,
+    "JavaScript/TypeScript": 9.9,
+    "Java": 4.7,
+    "Python": 4.7,
+    "Ruby": 4.0,
+    "Go": 1.9,
+    "C#": 1.0,
+    "Other": 0.5,
+    "Rust": 0.3,
+    "Scala": 0.2,
+    "Swift": 0.1,
+    "Kotlin": 0.1,
+    "Lua": 0.0
+   },
+   "cve_year_2023_or_later_%": 0.0
+  },
+  "validation": {
+   "records": 2656,
+   "pairs": 12478,
+   "cves": 708,
+   "snippets": 2420,
+   "msr_%": 28.6,
+   "languages_%": {
+    "C": 45.9,
+    "PHP": 15.9,
+    "C++": 11.2,
+    "JavaScript/TypeScript": 9.8,
+    "Python": 4.9,
+    "Java": 4.7,
+    "Ruby": 4.0,
+    "Go": 2.0,
+    "C#": 1.0,
+    "Other": 0.4,
+    "Scala": 0.1,
+    "Rust": 0.1,
+    "Swift": 0.1,
+    "Kotlin": 0.0
+   },
+   "cve_year_2023_or_later_%": 0.0
+  },
+  "test": {
+   "records": 1910,
+   "pairs": 9039,
+   "cves": 567,
+   "snippets": 1813,
+   "msr_%": 0.0,
+   "languages_%": {
+    "C": 33.3,
+    "PHP": 13.4,
+    "Java": 13.2,
+    "Python": 11.2,
+    "JavaScript/TypeScript": 8.7,
+    "Ruby": 7.4,
+    "C++": 5.3,
+    "Go": 3.7,
+    "Rust": 1.7,
+    "C#": 0.9,
+    "Swift": 0.6,
+    "Other": 0.5,
+    "Kotlin": 0.1,
+    "jq": 0.1
+   },
+   "cve_year_2023_or_later_%": 99.7
+  }
+ },
+ "cross_language": {
+  "train": {
+   "records": 16230,
+   "pairs": 74981,
+   "cves": 5090,
+   "snippets": 14727,
+   "msr_%": 37.5,
+   "languages_%": {
+    "C": 61.6,
+    "PHP": 14.8,
+    "C++": 14.6,
+    "JavaScript/TypeScript": 9.0
+   },
+   "cve_year_2023_or_later_%": 5.6
+  },
+  "validation": {
+   "records": 2030,
+   "pairs": 9419,
+   "cves": 637,
+   "snippets": 1860,
+   "msr_%": 37.5,
+   "languages_%": {
+    "C": 61.6,
+    "PHP": 14.7,
+    "C++": 14.7,
+    "JavaScript/TypeScript": 9.0
+   },
+   "cve_year_2023_or_later_%": 5.7
+  },
+  "test": {
+   "records": 4416,
+   "pairs": 20743,
+   "cves": 1039,
+   "snippets": 4168,
+   "msr_%": 0.0,
+   "languages_%": {
+    "Java": 29.1,
+    "Python": 28.7,
+    "Ruby": 22.3,
+    "Go": 12.0,
+    "C#": 3.3,
+    "Rust": 1.9,
+    "Other": 1.2,
+    "Swift": 0.6,
+    "Scala": 0.4,
+    "Kotlin": 0.4,
+    "Lua": 0.1
+   },
+   "cve_year_2023_or_later_%": 15.1
+  }
+ },
+ "language": {
+  "C": {
+   "train": 9281,
+   "validation": 1161,
+   "test": 1155
+  },
+  "PHP": {
+   "train": 3228,
+   "validation": 405,
+   "test": 408
+  },
+  "C++": {
+   "train": 2261,
+   "validation": 288,
+   "test": 272
+  },
+  "JavaScript/TypeScript": {
+   "train": 2057,
+   "validation": 249,
+   "test": 243
+  },
+  "Java": {
+   "train": 1117,
+   "validation": 140,
+   "test": 139
+  },
+  "Python": {
+   "train": 1079,
+   "validation": 138,
+   "test": 139
+  },
+  "Ruby": {
+   "train": 885,
+   "validation": 113,
+   "test": 111
+  },
+  "Go": {
+   "train": 428,
+   "validation": 54,
+   "test": 55
+  }
+ }
+}
